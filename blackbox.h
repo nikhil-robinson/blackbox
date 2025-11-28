@@ -32,10 +32,10 @@ extern "C" {
  ******************************************************************************/
 
 /** ULog magic bytes */
-#define BLACKBOX_LOG_MAGIC_BYTE0    0x55  // 'U'
+#define BLACKBOX_LOG_MAGIC_BYTE0    0x42  // 'B'
 #define BLACKBOX_LOG_MAGIC_BYTE1    0x4C  // 'L'
-#define BLACKBOX_LOG_MAGIC_BYTE2    0x6F  // 'o'
-#define BLACKBOX_LOG_MAGIC_BYTE3    0x67  // 'g'
+#define BLACKBOX_LOG_MAGIC_BYTE2    0x42  // 'B'
+#define BLACKBOX_LOG_MAGIC_BYTE3    0x4F  // 'O'
 
 /** ULog version */
 #define BLACKBOX_LOG_VERSION        1
