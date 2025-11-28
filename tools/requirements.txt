@@ -1,0 +1,5 @@
+# Blackbox Decoder Dependencies
+# Install with: pip install -r requirements.txt
+
+# Required for AES-256 decryption of encrypted log files
+cryptography>=3.0
