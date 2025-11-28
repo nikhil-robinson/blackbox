@@ -20,7 +20,7 @@
 #include "esp_log.h"
 #include "esp_spiffs.h"
 #include "esp_err.h"
-
+#include "esp_random.h"
 #include "blackbox.h"
 
 static const char *TAG = "SPIFFS_EXAMPLE";

@@ -24,12 +24,14 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 #include <sys/stat.h>
 #include <dirent.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "esp_log.h"
 #include "esp_err.h"
+#include "esp_random.h"
 #include "esp_vfs_fat.h"
 #include "sdmmc_cmd.h"
 #include "driver/sdmmc_host.h"
@@ -156,7 +158,7 @@ static void list_log_files(const char *path)
     int file_count = 0;
     while ((entry = readdir(dir)) != NULL) {
         if (strstr(entry->d_name, ".blackbox") != NULL) {
-            char filepath[256];
+            char filepath[512];
             snprintf(filepath, sizeof(filepath), "%s/%s", path, entry->d_name);
             
             struct stat st;

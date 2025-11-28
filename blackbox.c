@@ -29,7 +29,7 @@
 #include "esp_system.h"
 #include "esp_mac.h"
 #include "esp_attr.h"
-
+#include "esp_random.h"
 #include "mbedtls/aes.h"
 #include "mbedtls/cipher.h"
 
