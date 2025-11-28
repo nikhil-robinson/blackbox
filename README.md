@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/ESP--IDF-V5.2%2B-blue?style=for-the-badge&logo=espressif" alt="ESP-IDF">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/badge/Version-1.0.0-orange?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/ESP--IDF-V5.2%2B-blue?&logo=espressif" alt="ESP-IDF">
+  <img src="https://img.shields.io/badge/License-MIT-green?" alt="License">
+  <img src="https://img.shields.io/badge/Version-1.0.0-orange?" alt="Version">
 </p>
 
 <h1 align="center">🛫 Blackbox Logger for ESP-IDF</h1>
